@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="원래있던것들">
+      <UniqueIdentifier>{a9849259-7da9-414c-8bde-e342c799ae9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{127fd754-d85d-4637-ae09-42bdeb4cb99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\core">
+      <UniqueIdentifier>{5efb770d-7cf1-4d70-875a-0aaed13cb81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\source">
+      <UniqueIdentifier>{c9303446-0517-4811-b265-fbedfed7b0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2DEngine1">
+      <UniqueIdentifier>{cfc02338-0548-4fa4-a058-963613a154cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DEngine1.h">
+      <Filter>D2DEngine1</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="framework.h">
+      <Filter>원래있던것들</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h" />
+    <ClInclude Include="d2dtk.h" />
+    <ClInclude Include="imgui.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>원래있던것들</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>원래있던것들</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DEngine1.cpp">
+      <Filter>D2DEngine1</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>imgui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

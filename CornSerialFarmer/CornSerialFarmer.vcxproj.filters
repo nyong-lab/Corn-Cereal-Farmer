@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="default">
+      <UniqueIdentifier>{97948c0d-e528-4b3b-9028-ebdebe0ad5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{e5a279ba-acfb-498a-bc4e-27568edec463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{09aad31f-3da2-4632-8501-9eba172b3ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{91959a3c-9127-4cc1-829b-e60948e05b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{14a568ab-c7b4-4fe0-9d89-207596542d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Dongil">
+      <UniqueIdentifier>{fc760ed6-8053-46e6-9911-7f924216fb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Changdo">
+      <UniqueIdentifier>{0d04bbbf-832d-4a66-be31-c06526522a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Yoonsu">
+      <UniqueIdentifier>{75ac762c-c738-4075-8b95-284991fba0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Yeonha">
+      <UniqueIdentifier>{9a1167fd-cb41-4e91-bed4-38892369058c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\NPC1">
+      <UniqueIdentifier>{9e7fe42a-ac66-4db2-aec4-427b9b4df889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Farmer">
+      <UniqueIdentifier>{90abe52b-6322-459d-80c2-1c0322377692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer">
+      <UniqueIdentifier>{a6eabff0-cd07-47bc-8b9e-c76d9ba079e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\IdleState">
+      <UniqueIdentifier>{0e25c6f6-7e76-43f9-a23a-d66f24976dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\WalkState">
+      <UniqueIdentifier>{a5546d93-ac84-4ea4-a617-5b2432f8f490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1">
+      <UniqueIdentifier>{0f3abade-8017-4bbe-9025-84b972ce17de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\PatrolState">
+      <UniqueIdentifier>{a55477b1-f7de-42b7-8d9c-d4e43c8a8b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\RetrunState">
+      <UniqueIdentifier>{f24a5465-21e9-45e8-b689-bd72ccb1758e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\TalkState">
+      <UniqueIdentifier>{4ba93f53-6bf7-4263-88d7-402b9e04e750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\TalkState">
+      <UniqueIdentifier>{c3815407-753f-4e3e-97df-076d6f2196c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI">
+      <UniqueIdentifier>{98eb2415-134d-40b6-b556-147097bc40e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\PauseButton">
+      <UniqueIdentifier>{f8fa7878-e112-4e26-8971-eaf1d54a392d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera">
+      <UniqueIdentifier>{01eec5c8-cb56-4b91-b5c8-e1e4d4808ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\DeadBody">
+      <UniqueIdentifier>{39a54e97-4310-4a4b-b15d-2c1f5f0440ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\CheckState">
+      <UniqueIdentifier>{f2b63fa0-df20-4052-9b6d-2ccfb249d788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\FindState">
+      <UniqueIdentifier>{28130532-de9a-4661-88cf-b70144c4e05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\TimeBar">
+      <UniqueIdentifier>{bf8b0932-583c-4682-9541-6b3896c0438a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\ItemSlot">
+      <UniqueIdentifier>{33bc1f37-4fb5-4bc4-b620-153c9a1d06b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2">
+      <UniqueIdentifier>{2539cd10-883f-4911-a381-586d769246f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\TraceState">
+      <UniqueIdentifier>{08a608b3-b123-4e01-95da-8ffba1fc94d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\ReturnState">
+      <UniqueIdentifier>{a0835061-ada9-4a25-83d5-7b4ebb649927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\CheckState">
+      <UniqueIdentifier>{8d766118-14b1-4a23-832a-2e8bcfe740fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\TalkState">
+      <UniqueIdentifier>{607beefa-3dd2-4fff-878d-2c607c15fc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\FindState">
+      <UniqueIdentifier>{954b55bf-2c38-4218-8274-0e69068bdc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\NPC2">
+      <UniqueIdentifier>{4fc50bd2-121d-4650-b76b-e271adaa8caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Move">
+      <UniqueIdentifier>{4826e55f-32b1-46f6-9050-c950a450dc95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\BlackCat">
+      <UniqueIdentifier>{cba28fed-e069-4daf-865c-59a5351e7839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BlackCat">
+      <UniqueIdentifier>{007a6a5a-e3e4-4fae-b163-8b51da1e49e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BlackCat\IdleState">
+      <UniqueIdentifier>{32b32e0d-d1b0-4c75-8235-37c2c6ea2961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\BlackCat\MoveState">
+      <UniqueIdentifier>{f34c8026-9ac1-47aa-9f3d-d326a53208c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Farm">
+      <UniqueIdentifier>{91c18d3c-03aa-4545-a400-68dbb9d8f9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farm">
+      <UniqueIdentifier>{49d252d5-faa5-4bc9-8d03-6cdadf97ea03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Main">
+      <UniqueIdentifier>{f1c06c1a-f1e5-4d92-8b31-c1ca745890e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\QuestList">
+      <UniqueIdentifier>{b5d6a349-4753-4533-bb1c-62716a22cfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farm\NoWaterState">
+      <UniqueIdentifier>{789fa874-8ff8-44ce-8cf4-bc9de4990854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farm\WaterState">
+      <UniqueIdentifier>{67cebb8a-fc30-456a-b732-5b81f161614d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Police">
+      <UniqueIdentifier>{75cd4b1d-de01-48a0-9a6b-87cdf307fc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police">
+      <UniqueIdentifier>{4fa57041-dff1-418a-89a3-d36c686e4041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\CatchState">
+      <UniqueIdentifier>{67ddc920-df85-4d95-8615-a03e5c2b925d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\FindState">
+      <UniqueIdentifier>{8270b847-6c0f-4e58-b381-ec4f0d77e2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\PatrolState">
+      <UniqueIdentifier>{91c70acf-960e-4e4f-ad89-2559706e2eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\TraceState">
+      <UniqueIdentifier>{85d32919-9304-4827-b3af-964053aa6b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\IdleState">
+      <UniqueIdentifier>{90765d6d-2d19-408f-8974-238a07da59aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager">
+      <UniqueIdentifier>{472bed62-9e67-46cc-ae5c-addb62fe74da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager\QuestManager">
+      <UniqueIdentifier>{f880837a-99e6-46a4-9923-421d2efd18cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager\ItemManager">
+      <UniqueIdentifier>{a659594e-a006-45a3-9574-f0bcb9cb433d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager\GameManager">
+      <UniqueIdentifier>{da881850-c610-41ef-8c0c-537347322547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\WateringState">
+      <UniqueIdentifier>{197f5514-b6ca-4698-8d91-9a6c0e33a643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\HarvestState">
+      <UniqueIdentifier>{b79ba1dd-2fdc-45ee-86fb-04912b696192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\MoveBodyState">
+      <UniqueIdentifier>{56dc243b-34f6-4b84-96d2-661a3ceef3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC1\IdleState">
+      <UniqueIdentifier>{5317fbd9-5e2e-4d04-99e3-b0bfd320d403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\NPC2\IdleState">
+      <UniqueIdentifier>{3b3e43cc-78b8-4027-81a1-a5d3336c00a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager\EffectManager">
+      <UniqueIdentifier>{c4e2fc0d-76ff-4a97-86b4-f0bbee96c28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Police\DieState">
+      <UniqueIdentifier>{efd5774c-625a-4cdc-a05e-e24bb02ad484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Start">
+      <UniqueIdentifier>{dc4de713-6f69-49b3-865f-622dca6b90ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\YoonseoTest">
+      <UniqueIdentifier>{47165841-1fcd-4510-b128-60b0a0084491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\WildBoar">
+      <UniqueIdentifier>{59dc072c-49e5-457f-90ad-ed6eb32f4ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager\TextManager">
+      <UniqueIdentifier>{fdd174a7-56df-420a-a45e-ee26fd48720d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Farmer\InteractionState">
+      <UniqueIdentifier>{be7ffc51-dc60-49c4-8544-6b0db0e6cf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MiniGame">
+      <UniqueIdentifier>{c18deaca-5c98-4cd2-9269-bd55cb5502e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MiniGame\WareHouseGame">
+      <UniqueIdentifier>{98f009fb-1c9f-4f58-be0c-fb2fc374fdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MiniGame\WildBoarGame">
+      <UniqueIdentifier>{4ec39d5d-6d09-4d3d-81c9-7b66a3b14858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\PauseWindow">
+      <UniqueIdentifier>{7fe57746-c05a-47d4-aba3-fd3f08535d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\OpeningScene">
+      <UniqueIdentifier>{e81ab3aa-c93a-423d-9814-892ae56511f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\CutSceneText">
+      <UniqueIdentifier>{7ccc0775-2403-46d7-aa1b-0a9ee9b9c0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Police2">
+      <UniqueIdentifier>{334b686b-e9d6-43b7-a411-ceb528daabf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\GameOverWindow">
+      <UniqueIdentifier>{03699aed-3187-40a2-9d15-1c77993fd11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene">
+      <UniqueIdentifier>{c6b108c2-a76e-48a3-b76a-99e2e1842fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Time">
+      <UniqueIdentifier>{11b7869c-39d1-4dad-ab30-f07628c0e339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI">
+      <UniqueIdentifier>{ca42487b-c87a-440e-ba26-795067567c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\KillWindow">
+      <UniqueIdentifier>{4f1e4886-6f90-48f3-b563-98d03cba3086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MiniGame\CornGame">
+      <UniqueIdentifier>{e999a532-2c73-4a78-9c85-767bd066d27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingScene">
+      <UniqueIdentifier>{406b622b-8055-4ba4-80f6-9ce608a0f9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingCredit">
+      <UniqueIdentifier>{29313ecf-f49e-4884-a0d9-a0cf058756ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingScene\ArrestedEnding">
+      <UniqueIdentifier>{7b2a77fe-efe8-4d53-8f54-434ee2cec23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingScene\TrueEnding">
+      <UniqueIdentifier>{f837d654-3b67-4ac5-9429-b8401b1710ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\EndingScene\GameOver">
+      <UniqueIdentifier>{fcd1b250-206d-4e8c-8e6c-d563f05d9f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\ExplainWindow">
+      <UniqueIdentifier>{cabfed3a-de4b-4900-8f11-51369367cab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\KillWindow">
+      <UniqueIdentifier>{2d17ef2b-9aa2-460b-987e-47f7470a56ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\PauseButton">
+      <UniqueIdentifier>{1244cf39-2c41-4bc2-a49d-71fbc26361bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\ExplainWindow">
+      <UniqueIdentifier>{c8a5e29d-ac0c-45ec-b064-e5929ad4828e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\BlackScreen">
+      <UniqueIdentifier>{c0ce6f2e-6176-4d88-b0d4-d05145763457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\BlackScreen">
+      <UniqueIdentifier>{be284814-8298-488b-8966-f7a882eaa2df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CornSerialFarmer.cpp" />
+    <ClCompile Include="NextScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangdoScene.cpp">
+      <Filter>Scene\Changdo</Filter>
+    </ClCompile>
+    <ClCompile Include="DongilScene.cpp">
+      <Filter>Scene\Dongil</Filter>
+    </ClCompile>
+    <ClCompile Include="YoonsuScene.cpp">
+      <Filter>Scene\Yoonsu</Filter>
+    </ClCompile>
+    <ClCompile Include="Yeonha.cpp">
+      <Filter>Scene\Yeonha</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1Script.cpp">
+      <Filter>Script\NPC1</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmerScript.cpp">
+      <Filter>Script\Farmer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFSM.cpp">
+      <Filter>FSM\Farmer</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>FSM\Farmer\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkState.cpp">
+      <Filter>FSM\Farmer\WalkState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1FSM.cpp">
+      <Filter>FSM\NPC1</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1PatrolState.cpp">
+      <Filter>FSM\NPC1\PatrolState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1ReturnState.cpp">
+      <Filter>FSM\NPC1\RetrunState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1TalkState.cpp">
+      <Filter>FSM\NPC1\TalkState</Filter>
+    </ClCompile>
+    <ClCompile Include="TalkState.cpp">
+      <Filter>FSM\Farmer\TalkState</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseButton.cpp">
+      <Filter>GameObject\UI\PauseButton</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1ViewScript.cpp">
+      <Filter>Script\NPC1</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraScript.cpp">
+      <Filter>Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadBodyScript.cpp">
+      <Filter>Script\DeadBody</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1CheckState.cpp">
+      <Filter>FSM\NPC1\CheckState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC1FindState.cpp">
+      <Filter>FSM\NPC1\FindState</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBar.cpp">
+      <Filter>GameObject\UI\TimeBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>GameObject\UI\ItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManagerScript.cpp">
+      <Filter>Script\Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Script\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2FSM.cpp">
+      <Filter>FSM\NPC2</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2TraceState.cpp">
+      <Filter>FSM\NPC2\TraceState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2ReturnState.cpp">
+      <Filter>FSM\NPC2\ReturnState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2CheckState.cpp">
+      <Filter>FSM\NPC2\CheckState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2TalkState.cpp">
+      <Filter>FSM\NPC2\TalkState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2FindState.cpp">
+      <Filter>FSM\NPC2\FindState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2Script.cpp">
+      <Filter>Script\NPC2</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2ViewScript.cpp">
+      <Filter>Script\NPC2</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackCatScript.cpp">
+      <Filter>Script\BlackCat</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackCatIdleState.cpp">
+      <Filter>FSM\BlackCat\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackCatMoveState.cpp">
+      <Filter>FSM\BlackCat\MoveState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackCatFSM.cpp">
+      <Filter>FSM\BlackCat</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManagerScript.cpp">
+      <Filter>Script\Manager\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmScript.cpp">
+      <Filter>Script\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmFSM.cpp">
+      <Filter>FSM\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestList.cpp">
+      <Filter>GameObject\UI\QuestList</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmNoWaterState.cpp">
+      <Filter>FSM\Farm\NoWaterState</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmWaterState.cpp">
+      <Filter>FSM\Farm\WaterState</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceScript.cpp">
+      <Filter>Script\Police</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceFSM.cpp">
+      <Filter>FSM\Police</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceTraceState.cpp">
+      <Filter>FSM\Police\TraceState</Filter>
+    </ClCompile>
+    <ClCompile Include="PolicePatrolState.cpp">
+      <Filter>FSM\Police\PatrolState</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceFindState.cpp">
+      <Filter>FSM\Police\FindState</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCatchState.cpp">
+      <Filter>FSM\Police\CatchState</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceViewScript.cpp">
+      <Filter>Script\Police</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceIdleState.cpp">
+      <Filter>FSM\Police\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestManagerScript.cpp">
+      <Filter>Script\Manager\QuestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDataScript.cpp">
+      <Filter>Script\Manager\QuestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBodyState.cpp">
+      <Filter>FSM\Farmer\MoveBodyState</Filter>
+    </ClCompile>
+    <ClCompile Include="HarvestState.cpp">
+      <Filter>FSM\Farmer\HarvestState</Filter>
+    </ClCompile>
+    <ClCompile Include="WateringState.cpp">
+      <Filter>FSM\Farmer\WateringState</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameCornScipt.cpp" />
+    <ClCompile Include="MiniGameCornScipt.cpp" />
+    <ClCompile Include="NPC1IdleState.cpp">
+      <Filter>FSM\NPC1\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC2IdleState.cpp">
+      <Filter>FSM\NPC2\IdleState</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangdoScript.cpp" />
+    <ClCompile Include="EffectManagerScript.cpp">
+      <Filter>Script\Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceDieState.cpp">
+      <Filter>FSM\Police\DieState</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Scene\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="YoonseoTestScene.cpp">
+      <Filter>Scene\YoonseoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="WildBoarScript.cpp">
+      <Filter>Script\WildBoar</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManagerScript.cpp">
+      <Filter>Script\Manager\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionState.cpp">
+      <Filter>FSM\Farmer\InteractionState</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameCornScipt.cpp">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CornGameManagerScript.cpp">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangdoScript.cpp">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseGame.cpp">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WareHouseGameScript.cpp">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyHoleScript.cpp">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WildBoarGame.cpp">
+      <Filter>GameObject\MiniGame\WildBoarGame</Filter>
+    </ClCompile>
+    <ClCompile Include="LockScript.cpp">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WildBoarCatchScript.cpp">
+      <Filter>GameObject\MiniGame\WildBoarGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseWindow.cpp">
+      <Filter>GameObject\UI\PauseWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningScene.cpp">
+      <Filter>Scene\OpeningScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CutSceneScript.cpp">
+      <Filter>Script\CutSceneText</Filter>
+    </ClCompile>
+    <ClCompile Include="Police2Script.cpp">
+      <Filter>Script\Police2</Filter>
+    </ClCompile>
+    <ClCompile Include="Police2ViewScript.cpp">
+      <Filter>Script\Police2</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverWindow.cpp">
+      <Filter>GameObject\UI\GameOverWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="StartSceneScript.cpp">
+      <Filter>Script\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TImeScript.cpp">
+      <Filter>Script\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="PopupWindowBackground.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="KillWindow.cpp">
+      <Filter>GameObject\UI\KillWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmerAim.cpp">
+      <Filter>Script\Farmer</Filter>
+    </ClCompile>
+    <ClCompile Include="WareHouseDoorScript.cpp">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CornGame.cpp">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CornGameManagerScript.cpp">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameCornScipt.cpp">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrestedEnding.cpp">
+      <Filter>Scene\EndingScene\ArrestedEnding</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueEnding.cpp">
+      <Filter>Scene\EndingScene\TrueEnding</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Scene\EndingScene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>Scene\EndingCredit</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditBubbleScript.cpp" />
+    <ClCompile Include="CountDown.cpp" />
+    <ClCompile Include="CountDownScript.cpp" />
+    <ClCompile Include="ExplainWindow.cpp">
+      <Filter>GameObject\UI\ExplainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="KillWindowScript.cpp">
+      <Filter>Script\UI\KillWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseButtonScript.cpp">
+      <Filter>Script\UI\PauseButton</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplainWindowScript.cpp">
+      <Filter>Script\UI\ExplainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackScreen.cpp">
+      <Filter>GameObject\UI\BlackScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackScreenScript.cpp">
+      <Filter>Script\UI\BlackScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodStartScene.cpp">
+      <Filter>Scene\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="BubblePopScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CornSerialFarmer.h" />
+    <ClInclude Include="NextScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangdoScene.h">
+      <Filter>Scene\Changdo</Filter>
+    </ClInclude>
+    <ClInclude Include="DongilScene.h">
+      <Filter>Scene\Dongil</Filter>
+    </ClInclude>
+    <ClInclude Include="YoonsuScene.h">
+      <Filter>Scene\Yoonsu</Filter>
+    </ClInclude>
+    <ClInclude Include="Yeonha.h">
+      <Filter>Scene\Yeonha</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1Script.h">
+      <Filter>Script\NPC1</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmerScript.h">
+      <Filter>Script\Farmer</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFSM.h">
+      <Filter>FSM\Farmer</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkState.h">
+      <Filter>FSM\Farmer\WalkState</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>FSM\Farmer\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1FSM.h">
+      <Filter>FSM\NPC1</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1PatrolState.h">
+      <Filter>FSM\NPC1\PatrolState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1ReturnState.h">
+      <Filter>FSM\NPC1\RetrunState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1TalkState.h">
+      <Filter>FSM\NPC1\TalkState</Filter>
+    </ClInclude>
+    <ClInclude Include="TalkState.h">
+      <Filter>FSM\Farmer\TalkState</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseButton.h">
+      <Filter>GameObject\UI\PauseButton</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1ViewScript.h">
+      <Filter>Script\NPC1</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraScript.h">
+      <Filter>Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadBodyScript.h">
+      <Filter>Script\DeadBody</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1CheckState.h">
+      <Filter>FSM\NPC1\CheckState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC1FindState.h">
+      <Filter>FSM\NPC1\FindState</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBar.h">
+      <Filter>GameObject\UI\TimeBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>GameObject\UI\ItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManagerScript.h">
+      <Filter>Script\Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2FSM.h">
+      <Filter>FSM\NPC2</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2TraceState.h">
+      <Filter>FSM\NPC2\TraceState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2ReturnState.h">
+      <Filter>FSM\NPC2\ReturnState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2CheckState.h">
+      <Filter>FSM\NPC2\CheckState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2TalkState.h">
+      <Filter>FSM\NPC2\TalkState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2FindState.h">
+      <Filter>FSM\NPC2\FindState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2Script.h">
+      <Filter>Script\NPC2</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Script\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2ViewScript.h">
+      <Filter>Script\NPC2</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackCatScript.h">
+      <Filter>Script\BlackCat</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackCatIdleState.h">
+      <Filter>FSM\BlackCat\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackCatMoveState.h">
+      <Filter>FSM\BlackCat\MoveState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackCatFSM.h">
+      <Filter>FSM\BlackCat</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManagerScript.h">
+      <Filter>Script\Manager\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmScript.h">
+      <Filter>Script\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmFSM.h">
+      <Filter>FSM\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestList.h">
+      <Filter>GameObject\UI\QuestList</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmNoWaterState.h">
+      <Filter>FSM\Farm\NoWaterState</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmWaterState.h">
+      <Filter>FSM\Farm\WaterState</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceScript.h">
+      <Filter>Script\Police</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceFSM.h">
+      <Filter>FSM\Police</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceTraceState.h">
+      <Filter>FSM\Police\TraceState</Filter>
+    </ClInclude>
+    <ClInclude Include="PolicePatrolState.h">
+      <Filter>FSM\Police\PatrolState</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceFindState.h">
+      <Filter>FSM\Police\FindState</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCatchState.h">
+      <Filter>FSM\Police\CatchState</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceViewScript.h">
+      <Filter>Script\Police</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceIdleState.h">
+      <Filter>FSM\Police\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestManagerScript.h">
+      <Filter>Script\Manager\QuestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDataScript.h">
+      <Filter>Script\Manager\QuestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBodyState.h">
+      <Filter>FSM\Farmer\MoveBodyState</Filter>
+    </ClInclude>
+    <ClInclude Include="HarvestState.h">
+      <Filter>FSM\Farmer\HarvestState</Filter>
+    </ClInclude>
+    <ClInclude Include="WateringState.h">
+      <Filter>FSM\Farmer\WateringState</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameCornScipt.h" />
+    <ClInclude Include="MiniGameCornScipt.h" />
+    <ClInclude Include="NPC1IdleState.h">
+      <Filter>FSM\NPC1\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC2IdleState.h">
+      <Filter>FSM\NPC2\IdleState</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangdoScript.h" />
+    <ClInclude Include="EffectManagerScript.h">
+      <Filter>Script\Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceDieState.h">
+      <Filter>FSM\Police\DieState</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Scene\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="YoonseoTestScene.h">
+      <Filter>Scene\YoonseoTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WildBoarScript.h">
+      <Filter>Script\WildBoar</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManagerScript.h">
+      <Filter>Script\Manager\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionState.h">
+      <Filter>FSM\Farmer\InteractionState</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameCornScipt.h">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CornGameManagerScript.h">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangdoScript.h">
+      <Filter>GameObject\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseGame.h">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WareHouseGameScript.h">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyHoleScript.h">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WildBoarGame.h">
+      <Filter>GameObject\MiniGame\WildBoarGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WildBoarCatchScript.h">
+      <Filter>GameObject\MiniGame\WildBoarGame</Filter>
+    </ClInclude>
+    <ClInclude Include="LockScript.h">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseWindow.h">
+      <Filter>GameObject\UI\PauseWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningScene.h">
+      <Filter>Scene\OpeningScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CutSceneScript.h">
+      <Filter>Script\CutSceneText</Filter>
+    </ClInclude>
+    <ClInclude Include="Police2Script.h">
+      <Filter>Script\Police2</Filter>
+    </ClInclude>
+    <ClInclude Include="Police2ViewScript.h">
+      <Filter>Script\Police2</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverWindow.h">
+      <Filter>GameObject\UI\GameOverWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="StartSceneScript.h">
+      <Filter>Script\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TImeScript.h">
+      <Filter>Script\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h" />
+    <ClInclude Include="PopupWindowBackground.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="KillWindow.h">
+      <Filter>GameObject\UI\KillWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmerAim.h">
+      <Filter>Script\Farmer</Filter>
+    </ClInclude>
+    <ClInclude Include="WareHouseDoorScript.h">
+      <Filter>GameObject\MiniGame\WareHouseGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CornGame.h">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CornGameManagerScript.h">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameCornScipt.h">
+      <Filter>GameObject\MiniGame\CornGame</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrestedEnding.h">
+      <Filter>Scene\EndingScene\ArrestedEnding</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueEnding.h">
+      <Filter>Scene\EndingScene\TrueEnding</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Scene\EndingScene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>Scene\EndingCredit</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditBubbleScript.h" />
+    <ClInclude Include="CountDown.h" />
+    <ClInclude Include="CountDownScript.h" />
+    <ClInclude Include="ExplainWindow.h">
+      <Filter>GameObject\UI\ExplainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="KillWindowScript.h">
+      <Filter>Script\UI\KillWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseButtonScript.h">
+      <Filter>Script\UI\PauseButton</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplainWindowScript.h">
+      <Filter>Script\UI\ExplainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackScreen.h">
+      <Filter>GameObject\UI\BlackScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackScreenScript.h">
+      <Filter>Script\UI\BlackScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodStartScene.h">
+      <Filter>Scene\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="BubblePopScript.h" />
+  </ItemGroup>
+</Project>

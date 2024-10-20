@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineDemo">
+      <UniqueIdentifier>{b7acc629-2de2-4ade-9266-a9cd90d864a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineDemo.h">
+      <Filter>EngineDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineDemo.cpp">
+      <Filter>EngineDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

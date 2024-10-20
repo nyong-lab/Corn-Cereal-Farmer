@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Component\Collider\CircleCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\Collider\BoxCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>Component\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ZicoMath.h" />
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>Component\Renderer\ImageRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveRenderer.h">
+      <Filter>Component\Renderer\PrimitiveRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMState.h">
+      <Filter>FSM\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CallInfo.h">
+      <Filter>Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.hpp">
+      <Filter>Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Manager\ResourceManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Manager\ResourceManager\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Manager\ResourceManager\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Manager\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Component\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraEffect.h">
+      <Filter>CameraEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeIn.h">
+      <Filter>CameraEffect\FadeIn</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeOut.h">
+      <Filter>CameraEffect\FadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Component\UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Component\Renderer\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Manager\ResourceManager\Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDefine.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifold.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicTree.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadPhase.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonCollider.h">
+      <Filter>Component\Collider\PolygonCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayStatics.h">
+      <Filter>GameplayStatics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Component\Collider\CircleCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component\Collider\BoxCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>Component\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRenderer.cpp">
+      <Filter>Component\Renderer\ImageRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveRenderer.cpp">
+      <Filter>Component\Renderer\PrimitiveRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMState.cpp">
+      <Filter>FSM\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CallInfo.cpp">
+      <Filter>Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Manager\ResourceManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Manager\ResourceManager\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Manager\ResourceManager\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Manager\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Component\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraEffect.cpp">
+      <Filter>CameraEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeIn.cpp">
+      <Filter>CameraEffect\FadeIn</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>CameraEffect\FadeOut</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Component\UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Component\Renderer\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Manager\ResourceManager\Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDefine.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manifold.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicTree.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadPhase.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCollider.cpp">
+      <Filter>Component\Collider\PolygonCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayStatics.cpp">
+      <Filter>GameplayStatics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{65d1cf0a-af27-4236-a613-e4d65077b59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fab9b64d-035c-4167-af41-1d53a76ed1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5e6ea82e-898a-4351-967c-7aaea8d50bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{d9401c5b-e77b-45b4-9be2-dd7d66fee9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TimeManager">
+      <UniqueIdentifier>{9c6fbda7-7e4a-4851-b810-0941bdce6ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{14296537-4fb5-4ec1-94bf-b651216bc687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{e0728c9c-3362-4b95-b3cd-72bc489ccbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Rigidbody">
+      <UniqueIdentifier>{71078469-60fb-44a0-ab6e-797ef8f57cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer">
+      <UniqueIdentifier>{475f05b7-bf10-40cd-a795-f45ec083db3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{b0f5f32d-416a-4a45-b1e1-c1af1b516aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\CircleCollider">
+      <UniqueIdentifier>{5b7443ac-3033-48ea-a014-e73c6db9153c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\BoxCollider">
+      <UniqueIdentifier>{576e3db8-3691-44a2-8aa5-d931638318f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\MonoBehaviour">
+      <UniqueIdentifier>{fa68172d-95d8-4a55-82da-8ebb3acafb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{11453f8f-d06e-4bad-a723-e1e395d6f35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\CircleCollider">
+      <UniqueIdentifier>{5b7443ac-3033-48ea-a014-e73c6db9153c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer\ImageRenderer">
+      <UniqueIdentifier>{ad77d38b-eacf-4ab5-80cc-6b7a35fba34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Animator">
+      <UniqueIdentifier>{762da2ae-dbf2-4b13-8fe8-5bee6690d4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer\PrimitiveRenderer">
+      <UniqueIdentifier>{802e7201-7895-4794-8f9c-044f318bc20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{26c31696-7973-4f10-b717-5181b5895abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\State">
+      <UniqueIdentifier>{d2e3af4b-9030-475b-a426-6d7457d101b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI">
+      <UniqueIdentifier>{cd13ad2d-4d82-4b0a-9f8e-28c47135fb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\UIManager">
+      <UniqueIdentifier>{06a9029e-d099-45a9-b81c-a50cb9e14b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Camera">
+      <UniqueIdentifier>{a5728b00-27ae-4d50-ba71-5c32b397350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{37e79f1c-6c57-4f7f-99eb-ac19531f286e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\PathManager">
+      <UniqueIdentifier>{00241eb8-a876-498b-b432-b12b09f7b323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EventManager">
+      <UniqueIdentifier>{bc09eccc-94c6-42e5-827d-0c3e0feefbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager">
+      <UniqueIdentifier>{6b5d18c3-73fb-404e-8685-db0be3301b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager\Resource">
+      <UniqueIdentifier>{e769b9e2-845d-4e90-877a-af86aa6b3466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager\Resource\Font">
+      <UniqueIdentifier>{04f99516-a384-4056-ab74-40e21bd74e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager\Resource\Image">
+      <UniqueIdentifier>{c79044bc-1081-4cea-bfd3-2181aca19155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI\Button">
+      <UniqueIdentifier>{463bad03-436b-48e6-88e2-af92158aee1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraEffect">
+      <UniqueIdentifier>{a3a6601b-b51e-4082-8ac7-7e7a4eab7560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraEffect\FadeIn">
+      <UniqueIdentifier>{b305778e-1238-4443-9b5a-6e2ecc28776a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraEffect\FadeOut">
+      <UniqueIdentifier>{92df10ab-1d82-44e6-9851-2688335e6f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI\Panel">
+      <UniqueIdentifier>{913b0922-2748-4ba4-a9ca-99037a44bec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer\TextRenderer">
+      <UniqueIdentifier>{1e959b17-f4a0-4ac5-aa79-6a7737bc5e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager\Resource\Sound">
+      <UniqueIdentifier>{342ad449-d678-478e-a46b-275d1fc9aca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CollisionManager">
+      <UniqueIdentifier>{05e13afe-842a-4675-8924-242c8128e280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\PolygonCollider">
+      <UniqueIdentifier>{651980c3-f501-409d-81d0-78d3befc26ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplayStatics">
+      <UniqueIdentifier>{f399495f-d168-40aa-a9c4-d900fc85a8ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

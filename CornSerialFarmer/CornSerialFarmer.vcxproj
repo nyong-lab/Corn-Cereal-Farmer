@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrestedEnding.cpp" />
+    <ClCompile Include="BlackCatFSM.cpp" />
+    <ClCompile Include="BlackCatIdleState.cpp" />
+    <ClCompile Include="BlackCatMoveState.cpp" />
+    <ClCompile Include="BlackCatScript.cpp" />
+    <ClCompile Include="BlackScreen.cpp" />
+    <ClCompile Include="BlackScreenScript.cpp" />
+    <ClCompile Include="BloodStartScene.cpp" />
+    <ClCompile Include="BubblePopScript.cpp" />
+    <ClCompile Include="CameraScript.cpp" />
+    <ClCompile Include="ChangdoScene.cpp" />
+    <ClCompile Include="ChangdoScript.cpp" />
+    <ClCompile Include="CornGame.cpp" />
+    <ClCompile Include="CornGameManagerScript.cpp" />
+    <ClCompile Include="CornSerialFarmer.cpp" />
+    <ClCompile Include="CountDown.cpp" />
+    <ClCompile Include="CountDownScript.cpp" />
+    <ClCompile Include="CreditBubbleScript.cpp" />
+    <ClCompile Include="CutSceneScript.cpp" />
+    <ClCompile Include="DeadBodyScript.cpp" />
+    <ClCompile Include="DongilScene.cpp" />
+    <ClCompile Include="EffectManagerScript.cpp" />
+    <ClCompile Include="EndingCredit.cpp" />
+    <ClCompile Include="ExplainWindow.cpp" />
+    <ClCompile Include="ExplainWindowScript.cpp" />
+    <ClCompile Include="FarmerAim.cpp" />
+    <ClCompile Include="FarmerScript.cpp" />
+    <ClCompile Include="FarmFSM.cpp" />
+    <ClCompile Include="FarmNoWaterState.cpp" />
+    <ClCompile Include="FarmScript.cpp" />
+    <ClCompile Include="FarmWaterState.cpp" />
+    <ClCompile Include="GameManagerScript.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GameOverWindow.cpp" />
+    <ClCompile Include="HarvestState.cpp" />
+    <ClCompile Include="IdleState.cpp" />
+    <ClCompile Include="InteractionState.cpp" />
+    <ClCompile Include="ItemManagerScript.cpp" />
+    <ClCompile Include="ItemSlot.cpp" />
+    <ClCompile Include="KeyHoleScript.cpp" />
+    <ClCompile Include="KillWindow.cpp" />
+    <ClCompile Include="KillWindowScript.cpp" />
+    <ClCompile Include="LockScript.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="MiniGameCornScipt.cpp" />
+    <ClCompile Include="Move.cpp" />
+    <ClCompile Include="MoveBodyState.cpp" />
+    <ClCompile Include="NextScene.cpp" />
+    <ClCompile Include="NPC1CheckState.cpp" />
+    <ClCompile Include="NPC1FindState.cpp" />
+    <ClCompile Include="NPC1FSM.cpp" />
+    <ClCompile Include="NPC1IdleState.cpp" />
+    <ClCompile Include="NPC1PatrolState.cpp" />
+    <ClCompile Include="NPC1ReturnState.cpp" />
+    <ClCompile Include="NPC1Script.cpp" />
+    <ClCompile Include="NPC1TalkState.cpp" />
+    <ClCompile Include="NPC1ViewScript.cpp" />
+    <ClCompile Include="NPC2CheckState.cpp" />
+    <ClCompile Include="NPC2FindState.cpp" />
+    <ClCompile Include="NPC2FSM.cpp" />
+    <ClCompile Include="NPC2IdleState.cpp" />
+    <ClCompile Include="NPC2ReturnState.cpp" />
+    <ClCompile Include="NPC2Script.cpp" />
+    <ClCompile Include="NPC2TalkState.cpp" />
+    <ClCompile Include="NPC2TraceState.cpp" />
+    <ClCompile Include="NPC2ViewScript.cpp" />
+    <ClCompile Include="ObjectDataScript.cpp" />
+    <ClCompile Include="OpeningScene.cpp" />
+    <ClCompile Include="PopupWindowBackground.cpp" />
+    <ClCompile Include="PauseButtonScript.cpp" />
+    <ClCompile Include="PauseWindow.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="PauseButton.cpp" />
+    <ClCompile Include="Police2Script.cpp" />
+    <ClCompile Include="Police2ViewScript.cpp" />
+    <ClCompile Include="PoliceCatchState.cpp" />
+    <ClCompile Include="PoliceDieState.cpp" />
+    <ClCompile Include="PoliceFindState.cpp" />
+    <ClCompile Include="PoliceFSM.cpp" />
+    <ClCompile Include="PoliceIdleState.cpp" />
+    <ClCompile Include="PolicePatrolState.cpp" />
+    <ClCompile Include="PoliceScript.cpp" />
+    <ClCompile Include="PoliceTraceState.cpp" />
+    <ClCompile Include="PoliceViewScript.cpp" />
+    <ClCompile Include="QuestList.cpp" />
+    <ClCompile Include="QuestManagerScript.cpp" />
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="StartSceneScript.cpp" />
+    <ClCompile Include="TextManagerScript.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="TalkState.cpp" />
+    <ClCompile Include="TestFSM.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="TimeBar.cpp" />
+    <ClCompile Include="TImeScript.cpp" />
+    <ClCompile Include="TrueEnding.cpp" />
+    <ClCompile Include="WalkState.cpp" />
+    <ClCompile Include="WareHouseDoorScript.cpp" />
+    <ClCompile Include="WarehouseGame.cpp" />
+    <ClCompile Include="WareHouseGameScript.cpp" />
+    <ClCompile Include="WateringState.cpp" />
+    <ClCompile Include="WildBoarCatchScript.cpp" />
+    <ClCompile Include="WildBoarGame.cpp" />
+    <ClCompile Include="WildBoarScript.cpp" />
+    <ClCompile Include="Yeonha.cpp" />
+    <ClCompile Include="YoonseoTestScene.cpp" />
+    <ClCompile Include="YoonsuScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrestedEnding.h" />
+    <ClInclude Include="BlackCatFSM.h" />
+    <ClInclude Include="BlackCatIdleState.h" />
+    <ClInclude Include="BlackCatMoveState.h" />
+    <ClInclude Include="BlackCatScript.h" />
+    <ClInclude Include="BlackScreen.h" />
+    <ClInclude Include="BlackScreenScript.h" />
+    <ClInclude Include="BloodStartScene.h" />
+    <ClInclude Include="BubblePopScript.h" />
+    <ClInclude Include="CameraScript.h" />
+    <ClInclude Include="ChangdoScene.h" />
+    <ClInclude Include="ChangdoScript.h" />
+    <ClInclude Include="CornGame.h" />
+    <ClInclude Include="CornGameManagerScript.h" />
+    <ClInclude Include="CornSerialFarmer.h" />
+    <ClInclude Include="CountDown.h" />
+    <ClInclude Include="CountDownScript.h" />
+    <ClInclude Include="CreditBubbleScript.h" />
+    <ClInclude Include="CutSceneScript.h" />
+    <ClInclude Include="DeadBodyScript.h" />
+    <ClInclude Include="DongilScene.h" />
+    <ClInclude Include="EffectManagerScript.h" />
+    <ClInclude Include="EndingCredit.h" />
+    <ClInclude Include="ExplainWindow.h" />
+    <ClInclude Include="ExplainWindowScript.h" />
+    <ClInclude Include="FarmerAim.h" />
+    <ClInclude Include="FarmerScript.h" />
+    <ClInclude Include="FarmFSM.h" />
+    <ClInclude Include="FarmNoWaterState.h" />
+    <ClInclude Include="FarmScript.h" />
+    <ClInclude Include="FarmWaterState.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GameManagerScript.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GameOverWindow.h" />
+    <ClInclude Include="HarvestState.h" />
+    <ClInclude Include="IdleState.h" />
+    <ClInclude Include="InteractionState.h" />
+    <ClInclude Include="ItemManagerScript.h" />
+    <ClInclude Include="ItemSlot.h" />
+    <ClInclude Include="KeyHoleScript.h" />
+    <ClInclude Include="KillWindow.h" />
+    <ClInclude Include="KillWindowScript.h" />
+    <ClInclude Include="LockScript.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="MiniGameCornScipt.h" />
+    <ClInclude Include="Move.h" />
+    <ClInclude Include="MoveBodyState.h" />
+    <ClInclude Include="NextScene.h" />
+    <ClInclude Include="NPC1CheckState.h" />
+    <ClInclude Include="NPC1FindState.h" />
+    <ClInclude Include="NPC1FSM.h" />
+    <ClInclude Include="NPC1IdleState.h" />
+    <ClInclude Include="NPC1PatrolState.h" />
+    <ClInclude Include="NPC1ReturnState.h" />
+    <ClInclude Include="NPC1Script.h" />
+    <ClInclude Include="NPC1TalkState.h" />
+    <ClInclude Include="NPC1ViewScript.h" />
+    <ClInclude Include="NPC2CheckState.h" />
+    <ClInclude Include="NPC2FindState.h" />
+    <ClInclude Include="NPC2FSM.h" />
+    <ClInclude Include="NPC2IdleState.h" />
+    <ClInclude Include="NPC2ReturnState.h" />
+    <ClInclude Include="NPC2Script.h" />
+    <ClInclude Include="NPC2TalkState.h" />
+    <ClInclude Include="NPC2TraceState.h" />
+    <ClInclude Include="NPC2ViewScript.h" />
+    <ClInclude Include="ObjectDataScript.h" />
+    <ClInclude Include="OpeningScene.h" />
+    <ClInclude Include="PopupWindowBackground.h" />
+    <ClInclude Include="PauseButtonScript.h" />
+    <ClInclude Include="PauseWindow.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PauseButton.h" />
+    <ClInclude Include="Police2Script.h" />
+    <ClInclude Include="Police2ViewScript.h" />
+    <ClInclude Include="PoliceCatchState.h" />
+    <ClInclude Include="PoliceDieState.h" />
+    <ClInclude Include="PoliceFindState.h" />
+    <ClInclude Include="PoliceFSM.h" />
+    <ClInclude Include="PoliceIdleState.h" />
+    <ClInclude Include="PolicePatrolState.h" />
+    <ClInclude Include="PoliceScript.h" />
+    <ClInclude Include="PoliceTraceState.h" />
+    <ClInclude Include="PoliceViewScript.h" />
+    <ClInclude Include="QuestList.h" />
+    <ClInclude Include="QuestManagerScript.h" />
+    <ClInclude Include="ScriptManager.h" />
+    <ClInclude Include="StartSceneScript.h" />
+    <ClInclude Include="TextManagerScript.h" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="TalkState.h" />
+    <ClInclude Include="TestFSM.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="TimeBar.h" />
+    <ClInclude Include="TImeScript.h" />
+    <ClInclude Include="TrueEnding.h" />
+    <ClInclude Include="WalkState.h" />
+    <ClInclude Include="WareHouseDoorScript.h" />
+    <ClInclude Include="WarehouseGame.h" />
+    <ClInclude Include="WareHouseGameScript.h" />
+    <ClInclude Include="WateringState.h" />
+    <ClInclude Include="WildBoarCatchScript.h" />
+    <ClInclude Include="WildBoarGame.h" />
+    <ClInclude Include="WildBoarScript.h" />
+    <ClInclude Include="Yeonha.h" />
+    <ClInclude Include="YoonseoTestScene.h" />
+    <ClInclude Include="YoonsuScene.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9DA7BBB5-64F8-46B2-A1A9-603069189A85}</ProjectGuid>
+    <RootNamespace>CornSerialFarmerLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)GameEngine;$(SolutionDir)SoundManager;$(SolutionDir)GraphicsEngine;$(SolutionDir)inc;$(SolutionDir)Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>GameEngine.lib;</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>../Debug</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)GameEngine;$(SolutionDir)SoundManager;$(SolutionDir)GraphicsEngine;$(SolutionDir)inc;$(SolutionDir)Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>GameEngine.lib;</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>../Release</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
